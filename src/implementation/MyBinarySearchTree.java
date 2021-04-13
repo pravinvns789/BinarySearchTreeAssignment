@@ -4,10 +4,28 @@ import myinterface.BinarySearchTreeADT;
 import myinterface.Node;
 
 public class MyBinarySearchTree<E extends Comparable<E>> implements BinarySearchTreeADT<E> {
-    //complete this class
-
+     private Node root;
+     public Node getRoot(){
+         return root;
+         
+    }
     @Override
     public void insert(E data) {
+         Node node = new implementation.Node(data.compareTo(data));
+         if(root == null) {
+             root = node;
+         }
+         else {
+             Node temp = root;
+             Node parent = null;
+             while(temp!=null){
+                             parent = temp;
+                             if(data<= temp.ge)
+             }
+         }
+
+
+
 
     }
 

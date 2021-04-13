@@ -10,7 +10,6 @@ public class MyMain {
         bst.insert(10);
         bst.insert(35);
         bst.insert(40);
-        System.out.println(bst.height(bst.getRoot()));
         System.out.println();
         bst.delete(50);
         System.out.println();
